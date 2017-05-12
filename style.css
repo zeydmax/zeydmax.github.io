@@ -1,0 +1,71 @@
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+@font-face {
+    font-family: custom;
+    src:url(bettynoir.ttf) format("truetype");
+}
+@font-face {
+    font-family: custom1;
+    src:url(Ardeco-webfont.ttf);
+}
+.betty-noir {
+    font-family: custom;
+}
+.artDeco {
+    font-family: custom1;
+}
+.fa {
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    background: black;
+}
+#about{
+    margin-top: 80px; 
+}
+#about-text{
+    font-size: 30px;
+}
+#header-name{
+    font-size: 40px;
+    margin-left: 20px;
+}
+#navButtons{
+    background: black;
+    float: right;
+    display: block;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+    border-right: 5px;
+    border-right-color: white;
+}   
+#navButtons a{
+    color: lightgrey;
+}
+#navButtons a:hover{
+    color: white;
+}
+a {
+    color:grey;
+}
+a:hover{
+    color: black;
+    
+}
+footer{
+    font-size: 30px;
+}
+.contacts a:hover{
+    color:white;
+}
+img{
+    margin-left: 80px;
+}
